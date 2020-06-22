@@ -1,0 +1,15 @@
+<h1> jiraff admin </h1>
+<div style="display: flex;"[style.background]="bgRndom">
+<ul>
+    <j-item [j]="jiraff" *ngFor ="let jiraff of jiraffArray" class="j-item-as-list"
+    (clickNote)="selectedJ = jiraff"
+    (deleteNote)="deleteJ($event)"
+    (randomColorNote)="bgRndom = $event"
+
+
+     ></j-item>
+</ul>
+<br><br>
+
+<app-j-details [j]="selectedJ"></app-j-details>
+</div>

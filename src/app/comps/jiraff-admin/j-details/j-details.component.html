@@ -1,0 +1,7 @@
+
+<div *ngIf="j" [attr.jid]="j.id" [class]="'j-item' + (j.isBossy ?' bossy':'')" >
+    <h3>{{j.name}}</h3>
+    <app-j-labal-span label="height"[val]="j.height"></app-j-labal-span>
+    <app-j-labal-span label="color"[val]="j.color"></app-j-labal-span>
+
+</div>

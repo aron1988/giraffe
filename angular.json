@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "giraffe"
+    }
+  },
+  "defaultProject": "giraffe",
+  "cli": {
+    "analytics": false
+  }
 }

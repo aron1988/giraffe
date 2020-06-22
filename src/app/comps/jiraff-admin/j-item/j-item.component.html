@@ -1,0 +1,11 @@
+
+<div [attr.jid]="j.id" [class]="'j-item' + (j.isBossy ?' bossy':'')" 
+        (click)= "clickNote.emit()">
+    <h3>{{j.name}}</h3>
+    <app-j-labal-span label="height"[val]="j.height"></app-j-labal-span>
+    <app-j-labal-span label="color"[val]="j.color"></app-j-labal-span>
+    <app-j-labal-span label="isBossy"[val]="j.isBossy"></app-j-labal-span>
+    <button (click)=deleteNoteFn()>delet</button>
+
+
+</div>

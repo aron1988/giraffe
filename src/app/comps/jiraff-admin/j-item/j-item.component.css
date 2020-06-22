@@ -1,0 +1,11 @@
+.j-item{
+    padding: 1px;
+    border: 1px solid green;
+    margin: 24px;
+    width: 100%;
+ 
+}
+
+.j-item.bossy{
+    background-color: brown;
+}
